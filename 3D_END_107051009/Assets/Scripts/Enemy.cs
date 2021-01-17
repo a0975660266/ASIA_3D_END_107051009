@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour
         ani = GetComponent<Animator>();
 
         // 尋找其他遊戲物件("物件名稱").變形元件
-        player = GameObject.Find("小明").transform;
+        player = GameObject.Find("Player").transform;
         // 代理器 的 速度 與 停止距離
         nav.speed = speed;
         nav.stoppingDistance = stopDistance;
